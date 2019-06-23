@@ -1,0 +1,95 @@
+  101  apt-get install git
+  103  apt-get install git
+  106  sudo apt-get install git
+  107  git
+  108  git -help
+  109  git --help
+  111  git --help
+  112  git --version
+  113  git log
+  114  git show
+  115  git status '
+  116  locate git
+  117  locate git |head
+  118  locate git |more
+  126  git init
+  128  git remote add orgin "https://github.com/raul3520/Firstcode.git"
+  130  git pull orgin master
+  133  git status
+  134  cd .git/
+  137  git status
+  142  git status
+  143  git add edu1 
+  144  git status
+  147  git commit -m "Testing first commit in local"
+  148  git status
+  149  git commit -m "Testing first commit in local"
+  150  git config --global user.email "you@example.com"
+  151  git config --global user.name "Rahul"
+  152  git commit -m "Testing first commit in local"
+  154  git log 
+  156  git status
+  157  git add edu1 
+  158  git status
+  159  git commit -m "Testing first commit in local_2"
+  163  git status
+  165  git status
+  168  git status
+  169  git commit -m "Testing first commit in local_2"
+  170  git status
+  171  git add -A
+  172  git status
+  173  git commit -m "Testing first commit in local_22"
+  174  git status
+  200  git status 
+  203  git status 
+  208  git status 
+  210  git add -A
+  212  git add -A
+  213  git status 
+  214  git commit -m "Commiting second change"
+  215  git branch firstbranch
+  216  git status
+  217  git checkout firstbranch 
+  220  git status
+  221  git add edu3 
+  222  git commit -m "commiting in firstbranch"
+  223  git checkout master
+  225  git checkout firstbranch 
+  226  git checkout master
+  227  git merge firstbranch 
+  230  history |grep git
+  233  git checkout firstbranch 
+  234  git rebase master
+  237  git status
+  238  git add -A
+  239  git commit -m "testing rebase"
+  240  git checkout master
+  241  git status
+  243  git status
+  244  git merge firstbranch 
+  247  git add -A
+  248  git commit -m "hello"
+  249  git checkout firstbranch 
+  250  git merge master
+  253  git status
+  255  git commit -a -m "hjello 2"
+  256  git status
+  257  git checkout master 
+  260  git merge x.txt
+  261  git merge firstbranch 
+  264  git status 
+  270  ssh -T git@github.com
+  272  git checkout firstbranch 
+  273  git push orgin firstbranch 
+  274  git checkout master 
+  275  git push orgin master
+  277  history|grep git
+  278  history|grep git |sort
+  279  history|grep git |uniq
+  280  history|grep git |uniq |wc -l
+  281  history|grep git|wc -l
+  282  history|grep git|sort|uniq
+  283  history|grep git|sort|uniq|wc -l
+  284  history|grep git|sort|uniq -c
+  285  history|grep git >> rahul/gitcommands.txt
